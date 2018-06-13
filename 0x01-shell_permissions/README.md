@@ -1,0 +1,1 @@
+This project will be tackling tasks regarding ownership and permission rules for files and directories.
