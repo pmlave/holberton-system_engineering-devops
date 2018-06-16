@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n iacta | grep -n 2
+head --line=3 | tail -1
