@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --context=2 iacta
+head --line=3 iacta | tail -1
