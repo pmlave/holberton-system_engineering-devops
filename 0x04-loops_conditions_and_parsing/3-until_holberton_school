@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Printing 10 times with until
+i=10
+until [ $i -lt 1 ]; do
+      echo "Holberton School"
+      let i--
+done
