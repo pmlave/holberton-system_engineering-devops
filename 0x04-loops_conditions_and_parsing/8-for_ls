@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Printing ls values without numbers and hyphens
+find -P | cut -d - -f 2
