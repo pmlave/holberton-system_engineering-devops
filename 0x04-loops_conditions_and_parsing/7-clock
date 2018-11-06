@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Nested loops to represent a clock
+i=0
+while [ $i -lt 13 ];
+do
+	echo "Hour: $i"
+	j=0
+	while [ $j -lt 60 ];
+	do
+	    echo "$j"
+	    let j++
+	done
+	let i++
+done
