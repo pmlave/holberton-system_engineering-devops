@@ -5,4 +5,4 @@ Working with regular expressions, specifically in Ruby.
 2. Another regex pattern with same matching method. hb?tn
 3. Another regex pattern with same matching method. hbt+n
 4. Another regex pattern with same matching method. hbt*n
-5.
+5. Another regex pattern with same matching method. h.n
