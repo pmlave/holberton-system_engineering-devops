@@ -1,0 +1,1 @@
+This project focuses on networking and the way telecommunication systems work together.
