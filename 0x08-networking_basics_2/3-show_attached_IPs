@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# This bash script takes from the list only tie inet addr: section and then cuts of the rest to be left with only the ip's
 ifconfig | grep 'inet addr:' | awk {'print $2'} | cut -d ':' -f 2
