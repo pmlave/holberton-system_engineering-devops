@@ -3,6 +3,7 @@
 apt-get update
 sudo apt-get -y install nginx
 source="/etc/nginx/sites-available/default"
+sudo sed -i "s|^server {|server {\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n|g" /etc/nginx/sites-available/default
 echo -e "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
 sudo sed -i "s|#error_page 404 /404.html;|error_page 404 /404.html;|" $source
 sudo service nginx restart
