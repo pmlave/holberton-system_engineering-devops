@@ -1,0 +1,1 @@
+In this project we are debugging our web stack and running apache on a docker container.

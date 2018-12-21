@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Code for fixing the error
+apt-get update
+sudo apt-get -y install apache2
+sudo service apache2 restart
