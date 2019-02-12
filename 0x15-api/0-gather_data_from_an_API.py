@@ -2,6 +2,7 @@
 import requests
 import sys
 
+
 def main():
     """main script function"""
     if len(sys.argv) == 1:
@@ -29,7 +30,7 @@ def main():
             emp[0].get('name'), finished, total))
         for thing in todo:
             if thing.get('completed') is False:
-                print("\t {}".format(thing.get('title')))
+                print("     {}".format(thing.get('title')))
     except Exception as e:
         print(e)
 
