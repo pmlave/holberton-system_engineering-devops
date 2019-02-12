@@ -29,7 +29,7 @@ def main():
         print("Employee {} is done with tasks({:d}/{:d}):".format(
             emp[0].get('name'), finished, total))
         for thing in todo:
-            if thing.get('completed') is False:
+            if thing.get('completed') is True:
                 print("     {}".format(thing.get('title')))
     except Exception as e:
         print(e)
