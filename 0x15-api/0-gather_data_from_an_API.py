@@ -5,11 +5,10 @@ import sys
 
 def main():
     """main script function"""
-    if len(sys.argv) == 1:
-        """if no id given, set to empty string"""
-        employee_id = ""
-    else:
+    try:
         employee_id = sys.argv[1]
+    except:
+        return
     try:
         par = {'id': employee_id}
         emp = requests.get('https://jsonplaceholder.typicode.com/users',
