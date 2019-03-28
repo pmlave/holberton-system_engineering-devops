@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# This script works by creating a sybolic link that effectively forces the
-# default config of the two files to be the same.
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart

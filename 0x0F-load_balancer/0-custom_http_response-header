@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Script to install nginx and configure web-02 like we did to web-01
-sudo apt-get update
-sudo apt-get -y install nginx
-sudo sed -i "23i\\\tadd_header X-Served-By /$hostname;" /etc/nginx/sites-enabled/default
-sudo service nginx restart
